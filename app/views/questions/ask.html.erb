@@ -1,0 +1,8 @@
+<h1>Stupid coaching</h1>
+<p>Ask your coach anything</p>
+<h1><%= @ask %></h1>
+
+<form action="/answer" method="GET">
+  <input type="text" name="question" placeholder="Ask me something">
+  <input type="submit" value="Ask!">
+</form>
