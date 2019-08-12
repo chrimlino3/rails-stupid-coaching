@@ -1,7 +1,18 @@
 $gray: #F4F4F4;
 
 body {
-  background: $gray; // Using this variable
+  background: $gray;
+  display: grid;
+  justify-content: center;
+
+   // Using this variable
+}
+
+.btn {
+  background-color: pink;
+}
+.btn hover {
+  color: none;
 }
 
 // Place all the styles related to the questions controller here.
